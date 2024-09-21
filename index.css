@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: linear-gradient(75deg,darkblue,skyblue,lightgreen,darkgreen);
+    text-align: center;
+    
+}
+#container{
+    margin:0%;
+    width:100%;
+    height:50vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+}
+h1{
+    background-image: linear-gradient(75deg,skyblue,purple,pink);
+    color:white;
+    border-radius: 20px;
+    margin:1%;
+    width:30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#calculatorContainer{
+    margin:5%;
+    width:30%;
+    height:45vw;
+    border-radius: 20px;
+    background-image: linear-gradient(75deg,grey,white,silver);
+    box-shadow: -5px -5px 5px inset black;
+}
+#inputBox{
+    width:80%;
+    height:12vw;
+    margin-top: 4%;
+    background-image: linear-gradient(50deg,white,black,silver);
+    box-shadow: -5px -5px 5px black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    color:rgb(2, 252, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#inpuBox::placeholder{
+    color:white;
+}
+#numberSection{
+    margin-top:4%;
+    width:80%;
+    height:30vw;
+    background-image: linear-gradient();
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#numberButtons{
+    margin:0%;
+    text-align: center;
+}
+
+button{
+    border-radius: 50%;
+    margin:1%;
+    width:20%;
+    height:5vw;
+    font-size: 2vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-image: linear-gradient(75deg,cyan,green);
+    box-shadow: -5px -5px 5px inset black;
+    outline: none;
+    border:1px solid black;
+    filter:drop-shadow(1px 1px 1px black);
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 2vw;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
