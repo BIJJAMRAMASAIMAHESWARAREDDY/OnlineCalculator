@@ -6,3 +6,4 @@
 This is an Online Calculator  which is built using HTML, CSS and JavaScript.
 It is the basic calculator which does not have the operations of scientific calculator.
 This is project is just for learning and practicing purpose to improve my skills.
+This is project will be updated later on and this is not permanent.
